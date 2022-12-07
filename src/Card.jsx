@@ -36,7 +36,7 @@ export default function Card(props) {
                     <div className="card--date mt-3 mb-3">
                         <span>{props.item.startDate}</span> - <span>{props.item.endDate}</span>
                     </div>
-                    <div className="card--description">
+                    <div className="card--description text-justify">
                         {props.item.description}
                     </div>
                 </div>
