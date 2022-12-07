@@ -3,7 +3,7 @@ import React from 'react'
 export default function Card(props) {
 
     return (
-        <div className="container card-element">
+        <div className="container card-element pb-5 pt-5">
             <div className="row">
                 <div className="col-lg-3">
                     <img src={props.item.imageUrl} />
@@ -14,7 +14,7 @@ export default function Card(props) {
                     xmlns="http://www.w3.org/2000/svg"
                     width="20.963"
                     height="20.963"
-                    x=""
+                    x="0"
                     y="0"
                     enableBackground="new 0 0 425.963 425.963"
                     version="1.1"
