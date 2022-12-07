@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Card from './Card'
+import Navbar from './Navbar'
+import Cards from './Cards'
 
 function App() {
 
   return (
     <div className="App">
       <Navbar />
-      <Card />
+      <Cards />
     </div>
   )
 }
